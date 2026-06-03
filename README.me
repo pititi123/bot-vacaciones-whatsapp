@@ -1,0 +1,543 @@
+Resumen Completo – Unidad 1
+Introducción a la Arquitectura de Computadoras, Componentes y Sistema Binario
+
+La informática y las computadoras modernas funcionan gracias a una combinación de hardware, software y sistemas de comunicación internos que permiten procesar, almacenar y transmitir información. Comprender cómo funciona una computadora desde su arquitectura hasta el sistema binario es fundamental para cualquier estudiante de programación, sistemas o tecnología.
+
+1. Arquitectura de Computadoras
+
+La arquitectura de computadoras estudia cómo están organizados y conectados los componentes internos de una computadora y cómo trabajan entre sí para ejecutar instrucciones y procesar información. No solo se enfoca en el hardware físico, sino también en la relación entre el hardware y el software.
+
+La arquitectura es importante porque:
+
+Determina el rendimiento de la computadora.
+Define qué sistemas operativos y programas pueden ejecutarse.
+Influye en la velocidad de procesamiento.
+Afecta el consumo energético.
+Permite o limita la compatibilidad entre programas y dispositivos.
+
+Por ejemplo, algunos programas están diseñados para procesadores x86 y otros para ARM. Si una arquitectura cambia, el software puede necesitar adaptaciones o recompilaciones.
+
+2. Importancia de la Arquitectura de Computadoras
+
+La arquitectura no sirve solamente para entender cómo está construida una PC, sino también para comprender cómo funcionan los programas y por qué ciertas computadoras son más rápidas o eficientes que otras.
+
+Aspectos importantes
+Rendimiento
+
+El rendimiento indica qué tan rápido una computadora puede ejecutar tareas. Se relaciona con:
+
+Cantidad de instrucciones por segundo.
+Frecuencia del procesador (GHz).
+Cantidad de núcleos.
+Memoria disponible.
+
+Cuanto mayor sea el rendimiento, más rápido funcionarán las aplicaciones.
+
+Eficiencia energética
+
+Es fundamental especialmente en notebooks, celulares y servidores.
+
+Una arquitectura eficiente:
+
+Consume menos energía.
+Produce menos calor.
+Aumenta la duración de la batería.
+Compatibilidad
+
+La arquitectura define si un sistema operativo o programa puede ejecutarse en un equipo determinado.
+
+Ejemplo:
+
+Un programa compilado para ARM no funciona directamente en x86.
+Expansión y actualización
+
+Una buena arquitectura permite:
+
+Cambiar memoria RAM.
+Reemplazar discos.
+Actualizar procesadores.
+Agregar placas de video.
+
+Esto prolonga la vida útil del equipo.
+
+3. Evolución de las Arquitecturas
+
+La evolución de las computadoras transformó tanto el hardware como la programación.
+
+Primera generación
+Utilizaba válvulas de vacío.
+Programación en lenguaje máquina.
+Computadoras enormes y lentas.
+Segunda generación
+Aparición de transistores.
+Menor tamaño y consumo.
+Nacen lenguajes como FORTRAN y COBOL.
+Tercera generación
+Uso de circuitos integrados.
+Multiprogramación.
+Sistemas más complejos.
+Cuarta generación
+Aparición del microprocesador.
+Nacimiento de la computadora personal (PC).
+Expansión de los sistemas operativos modernos.
+Quinta generación y actualidad
+Redes e Internet.
+Multiprocesamiento.
+Inteligencia artificial.
+GPUs y TPUs especializadas.
+
+Actualmente una notebook común posee más potencia que antiguas supercomputadoras.
+
+4. Tipos de Arquitectura
+Arquitectura Von Neumann
+
+Es la arquitectura más utilizada.
+
+Características:
+
+Datos e instrucciones comparten la misma memoria.
+Usa un bus compartido.
+
+Ventajas:
+
+Diseño simple.
+Menor costo.
+
+Desventajas:
+
+Puede producirse un cuello de botella porque datos e instrucciones usan el mismo canal.
+
+Ejemplo:
+
+Procesadores Intel.
+Arquitectura Harvard
+
+Utiliza memorias separadas para datos e instrucciones.
+
+Ventajas:
+
+Puede leer datos e instrucciones simultáneamente.
+Mayor velocidad.
+
+Desventajas:
+
+Diseño más complejo.
+
+Ejemplo:
+
+Microcontroladores Arduino.
+5. Arquitecturas CISC y RISC
+CISC (Complex Instruction Set Computer)
+
+Características:
+
+Instrucciones complejas.
+Una sola instrucción puede realizar varias operaciones.
+
+Ventajas:
+
+Programación más sencilla en ensamblador.
+
+Ejemplo:
+
+x86.
+RISC (Reduced Instruction Set Computer)
+
+Características:
+
+Instrucciones simples y rápidas.
+Optimizado para eficiencia.
+
+Ventajas:
+
+Menor consumo energético.
+Mayor velocidad en ciertas tareas.
+
+Ejemplos:
+
+ARM.
+MIPS.
+
+Actualmente ARM domina celulares y dispositivos móviles.
+
+6. Código Máquina e ISA
+Código máquina
+
+Es el lenguaje que entiende directamente el procesador.
+
+Todas las aplicaciones terminan convirtiéndose en instrucciones binarias.
+
+ISA (Instruction Set Architecture)
+
+La ISA define:
+
+Qué instrucciones reconoce el procesador.
+Cómo se comunican hardware y software.
+
+Ejemplos:
+
+x86/x64 → PCs.
+ARM → celulares.
+RISC-V → hardware libre.
+7. Sistemas de 32 y 64 bits
+32 bits
+Máximo aproximado de 4 GB de RAM.
+Solo ejecuta software de 32 bits.
+64 bits
+Puede usar mucha más memoria RAM.
+Ejecuta software de 32 y 64 bits.
+
+Actualmente la mayoría de los sistemas son de 64 bits.
+
+8. Componentes de una Computadora
+Placa Madre
+
+Es el componente principal.
+
+Funciones:
+
+Conecta todos los componentes.
+Coordina la comunicación.
+Distribuye energía.
+
+Si falla la placa madre:
+
+Toda la computadora deja de funcionar.
+Buses
+
+Son los canales por donde circulan los datos.
+
+Funcionan como “autopistas” internas.
+
+Si son lentos:
+
+Toda la computadora pierde rendimiento.
+9. CPU – Microprocesador
+
+Es el “cerebro” de la computadora.
+
+Realiza:
+
+Cálculos.
+Ejecución de instrucciones.
+Procesamiento de datos.
+Velocidad de reloj
+
+Se mide en GHz.
+
+Indica cuántas operaciones básicas puede realizar por segundo.
+
+Núcleos
+
+Cada núcleo puede ejecutar tareas.
+
+Más núcleos permiten:
+
+Multitarea.
+Mejor rendimiento.
+10. Memoria RAM
+
+La RAM es memoria temporal y volátil.
+
+Características:
+
+Guarda datos mientras la PC está encendida.
+Se vacía al apagar el equipo.
+Es muy rápida.
+
+Se compara con un escritorio de trabajo:
+
+Lo que estás usando en el momento está sobre el escritorio.
+11. Memorias no Volátiles
+
+Conservan datos incluso sin energía.
+
+ROM
+
+Contiene instrucciones básicas del sistema.
+
+EEPROM y Flash
+
+Permiten reescribir información.
+
+CMOS RAM
+
+Guarda:
+
+Fecha.
+Hora.
+Configuración BIOS.
+12. Almacenamiento
+HDD
+
+Discos magnéticos tradicionales.
+
+Ventajas:
+
+Más económicos.
+
+Desventajas:
+
+Más lentos.
+Más frágiles.
+SSD
+
+Usan memoria flash.
+
+Ventajas:
+
+Mucho más rápidos.
+Silenciosos.
+Menor consumo.
+
+Actualmente son el estándar moderno.
+
+13. Interfaces de Comunicación
+SATA
+
+Conecta discos HDD y SSD.
+
+USB
+
+Conecta dispositivos externos:
+
+Mouse.
+Teclado.
+Impresoras.
+
+Las versiones nuevas son más rápidas.
+
+PCIe
+
+Interfaz de alta velocidad.
+
+Se usa para:
+
+Tarjetas gráficas.
+Placas de expansión.
+14. GPU – Placa Gráfica
+
+Procesa gráficos y video.
+
+Es fundamental para:
+
+Videojuegos.
+Diseño.
+Inteligencia artificial.
+15. Periféricos
+Entrada
+
+Permiten ingresar información:
+
+Teclado.
+Mouse.
+Micrófono.
+Salida
+
+Muestran resultados:
+
+Monitor.
+Impresora.
+Parlantes.
+Mixtos
+
+Realizan entrada y salida:
+
+Pantallas táctiles.
+Cámaras web.
+16. Sistema Binario
+
+Las computadoras trabajan con solo dos estados:
+
+0 → apagado.
+1 → encendido.
+
+Esto se debe a que los transistores funcionan como interruptores eléctricos.
+
+Millones de transistores trabajando juntos permiten procesar información.
+
+17. Transistores
+
+Son componentes electrónicos diminutos.
+
+Funcionan como:
+
+Interruptores.
+Permiten o bloquean corriente.
+
+Son la base de todos los microprocesadores modernos.
+
+18. Binario en el Almacenamiento
+RAM y ROM
+
+Guardan datos usando bits.
+
+CDs y DVDs
+
+Usan:
+
+Huecos.
+Superficies planas.
+
+Representan 0 y 1 mediante reflejos láser.
+
+Discos HDD
+
+Usan polaridades magnéticas:
+
+Una dirección = 0.
+Otra dirección = 1.
+19. Binario en las Redes
+
+Cuando enviamos mensajes o navegamos:
+
+Toda la información se convierte en bits.
+
+Puede viajar mediante:
+
+Pulsos eléctricos.
+Luz.
+Ondas de radio.
+20. Representación de Datos
+Enteros
+
+Se representan con bits.
+
+Ejemplo:
+2
+8
+=256
+
+Con 8 bits pueden representarse 256 valores.
+
+Complemento a dos
+
+Método para representar números negativos en binario.
+
+Ejemplo:
+
+1111 puede representar -1.
+Caracteres ASCII
+
+Cada letra tiene un número asociado.
+
+Ejemplo:
+
+A = 65 decimal.
+A = 01000001 binario.
+Unicode
+
+Extiende ASCII para representar caracteres de todos los idiomas.
+
+21. Representación de Colores
+
+Las pantallas usan RGB:
+
+Rojo.
+Verde.
+Azul.
+
+Cada color utiliza 8 bits.
+
+Ejemplo:
+
+255 representa máxima intensidad.
+22. Bits y Bytes
+Bit
+
+Unidad mínima:
+
+0 o 1.
+Byte
+
+Equivale a:
+1 Byte=8 bits
+
+23. Unidades de Almacenamiento
+Kilobyte (KB)
+
+1024 Bytes.
+
+Megabyte (MB)
+
+1024 KB.
+
+Gigabyte (GB)
+
+1024 MB.
+
+Terabyte (TB)
+
+1024 GB.
+
+24. ¿Por qué 1024?
+
+Porque las computadoras trabajan en potencias de 2.
+
+Ejemplo:
+2
+10
+=1024
+
+25. Velocidad de Transferencia
+Mbps
+
+Megabits por segundo.
+
+Se usa para internet.
+
+MBps
+
+Megabytes por segundo.
+
+Se usa para transferencia de archivos.
+
+Conversión:
+1 Byte=8 bits
+
+Por eso:
+
+100 Mbps ≈ 12.5 MB/s.
+26. Conversión Decimal a Binario
+
+Método:
+
+Dividir sucesivamente por 2.
+Leer residuos de abajo hacia arriba.
+27. Conversión Binario a Decimal
+
+Método:
+
+Multiplicar cada bit por su potencia de 2.
+Sumar resultados.
+
+Ejemplo:
+10110
+2
+	​
+
+=1⋅2
+4
++0⋅2
+3
++1⋅2
+2
++1⋅2
+1
++0⋅2
+0
+
+Conclusión General
+
+La arquitectura de computadoras y el sistema binario son la base de toda la informática moderna. Todo lo que realiza una computadora, desde ejecutar programas hasta mostrar imágenes o conectarse a Internet, se basa en millones de operaciones binarias procesadas por componentes electrónicos.
+
+Comprender:
+
+la arquitectura,
+los componentes,
+la memoria,
+el almacenamiento,
+el funcionamiento del CPU,
+y el sistema binario,
+
+permite entender cómo funciona realmente una computadora y ayuda a programar de forma más eficiente, optimizar recursos y resolver problemas de compatibilidad y rendimiento.
